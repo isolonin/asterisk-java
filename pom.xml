@@ -4,7 +4,7 @@
 	<groupId>org.asteriskjava</groupId>
 	<artifactId>asterisk-java</artifactId>
 	<name>Asterisk-Java</name>
-	<version>2.0.4-SNAP-SHOT</version>
+	<version>2.0.4-isolonin</version>
 	<description>The free Java library for Asterisk PBX integration.</description>
 	<inceptionYear>2004</inceptionYear>
 
@@ -203,14 +203,14 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
 						<version>2.10.1</version>
-						<executions>
-							<execution>
-								<id>attach-javadocs</id>
-								<goals>
-									<goal>jar</goal>
-								</goals>
-							</execution>
-						</executions>
+						<!--<executions>-->
+							<!--<execution>-->
+								<!--<id>attach-javadocs</id>-->
+								<!--<goals>-->
+									<!--<goal>jar</goal>-->
+								<!--</goals>-->
+							<!--</execution>-->
+						<!--</executions>-->
 						<configuration>
 							<groups>
 								<group>
@@ -236,17 +236,17 @@
 						<configuration>
 							<keyname>EA919AF2</keyname>
 						</configuration>
-						<executions>
-							<execution>
-								<id>sign-artifacts</id>
-								<phase>verify</phase>
+						<!--<executions>-->
+							<!--<execution>-->
+								<!--<id>sign-artifacts</id>-->
+								<!--<phase>verify</phase>-->
 
-								<goals>
-									<goal>sign</goal>
+								<!--<goals>-->
+									<!--<goal>sign</goal>-->
 
-								</goals>
-							</execution>
-						</executions>
+								<!--</goals>-->
+							<!--</execution>-->
+						<!--</executions>-->
 					</plugin>
 				</plugins>
 			</build>

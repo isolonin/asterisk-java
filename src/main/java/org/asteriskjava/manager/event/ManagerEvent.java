@@ -51,14 +51,34 @@ public abstract class ManagerEvent extends EventObject
     protected String exten;
     protected String callerIdNum;
     protected String callerIdName;
+    protected String linkedid;
+    protected String language;
 
-    /**
+	public String getLinkedid() {
+		return linkedid;
+	}
+
+	public void setLinkedid(String linkedid) {
+		this.linkedid = linkedid;
+	}
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+
+	/**
      * Returns the Caller ID name of the caller's channel.
      *
      * @return the Caller ID name of the caller's channel or "unknown" if none
      *         has been set.
      * @since 0.2
      */
+
+
 
     public String getCallerIdName()
     {

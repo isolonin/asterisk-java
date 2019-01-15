@@ -386,8 +386,8 @@ class EventBuilderImpl extends AbstractBuilder implements EventBuilder
         eventClass = registeredEventClasses.get(eventType);
         if (eventClass == null)
         {
-            logger.info("No event class registered for event type '" + eventType + "', attributes: " + attributes
-                    + ". Please report at https://github.com/asterisk-java/asterisk-java/issues");
+//            logger.info("No event class registered for event type '" + eventType + "', attributes: " + attributes
+//                    + ". Please report at https://github.com/asterisk-java/asterisk-java/issues");
             return null;
         }
 
